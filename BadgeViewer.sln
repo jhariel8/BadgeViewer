@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgeViewer.Core", "BadgeViewer.Core\BadgeViewer.Core.csproj", "{79C934AB-2DBD-47D7-907C-6E350D8B48A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgeViewer.Client", "BadgeViewer.Client\BadgeViewer.Client.csproj", "{3A448954-AD00-405F-B713-3BC411F00277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgeViewer.Portal", "BadgeViewer.Portal\BadgeViewer.Portal.csproj", "{26041245-FE31-4C6F-9B89-C66EAAFC6184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgeViewer.Web.Core", "BadgeViewer.Web.Core\BadgeViewer.Web.Core.csproj", "{36BEDC3D-A2FE-443C-B61D-3A7E9ACD87AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgeViewer.Dal", "BadgeViewer.Dal\BadgeViewer.Dal.csproj", "{BB52FDE9-073C-4988-9297-B7EE4D34AA83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgeViewer.Client.NTest", "BadgeViewer.Client.NTest\BadgeViewer.Client.NTest.csproj", "{0ABBC3E5-245B-4B6D-8D68-E68C87DBC3DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgeViewer.Core.CLTest", "BadgeViewer.Core.CLTest\BadgeViewer.Core.CLTest.csproj", "{FD814C26-BB03-4703-9F1E-704CC1DB4AC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgeViewer.Portal.Test", "BadgeViewer.Portal.Test\BadgeViewer.Portal.Test.csproj", "{D765BEE4-0A93-44B5-A5D9-220AD985A0DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgeViewer.Web.Core.WCLTest", "BadgeViewer.Web.Core.WCLTest\BadgeViewer.Web.Core.WCLTest.csproj", "{A9C8F122-BA46-4448-AF5F-561BA85B8AF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgeViewer.Client.Appium.Shared", "BadgeViewer.Client.Appium\UITests.Shared\BadgeViewer.Client.Appium.Shared.csproj", "{46E83E40-C4FB-40EC-AB85-F3A7496D7FC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgeViewer.Client.Appium.Android", "BadgeViewer.Client.Appium\UITests.Android\BadgeViewer.Client.Appium.Android.csproj", "{9BD9F0F4-124B-44CC-9A0E-EA5F3FA50AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgeViewer.Client.Appium.iOS", "BadgeViewer.Client.Appium\UITests.iOS\BadgeViewer.Client.Appium.iOS.csproj", "{EB5D259E-0ECC-427C-B8B5-E9D931DA94D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgeViewer.Client.Appium.macOS", "BadgeViewer.Client.Appium\UITests.macOS\BadgeViewer.Client.Appium.macOS.csproj", "{4A0954CC-5EAE-4D2F-AB0C-E30E74174BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadgeViewer.Client.Appium.Windows", "BadgeViewer.Client.Appium\UITests.Windows\BadgeViewer.Client.Appium.Windows.csproj", "{35331D58-D988-4A71-A719-E177EABFDBEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79C934AB-2DBD-47D7-907C-6E350D8B48A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C934AB-2DBD-47D7-907C-6E350D8B48A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C934AB-2DBD-47D7-907C-6E350D8B48A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C934AB-2DBD-47D7-907C-6E350D8B48A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A448954-AD00-405F-B713-3BC411F00277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A448954-AD00-405F-B713-3BC411F00277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A448954-AD00-405F-B713-3BC411F00277}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3A448954-AD00-405F-B713-3BC411F00277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A448954-AD00-405F-B713-3BC411F00277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A448954-AD00-405F-B713-3BC411F00277}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{26041245-FE31-4C6F-9B89-C66EAAFC6184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26041245-FE31-4C6F-9B89-C66EAAFC6184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26041245-FE31-4C6F-9B89-C66EAAFC6184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26041245-FE31-4C6F-9B89-C66EAAFC6184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36BEDC3D-A2FE-443C-B61D-3A7E9ACD87AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36BEDC3D-A2FE-443C-B61D-3A7E9ACD87AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36BEDC3D-A2FE-443C-B61D-3A7E9ACD87AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36BEDC3D-A2FE-443C-B61D-3A7E9ACD87AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB52FDE9-073C-4988-9297-B7EE4D34AA83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB52FDE9-073C-4988-9297-B7EE4D34AA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB52FDE9-073C-4988-9297-B7EE4D34AA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB52FDE9-073C-4988-9297-B7EE4D34AA83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ABBC3E5-245B-4B6D-8D68-E68C87DBC3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ABBC3E5-245B-4B6D-8D68-E68C87DBC3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ABBC3E5-245B-4B6D-8D68-E68C87DBC3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ABBC3E5-245B-4B6D-8D68-E68C87DBC3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD814C26-BB03-4703-9F1E-704CC1DB4AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD814C26-BB03-4703-9F1E-704CC1DB4AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD814C26-BB03-4703-9F1E-704CC1DB4AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD814C26-BB03-4703-9F1E-704CC1DB4AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D765BEE4-0A93-44B5-A5D9-220AD985A0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D765BEE4-0A93-44B5-A5D9-220AD985A0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D765BEE4-0A93-44B5-A5D9-220AD985A0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D765BEE4-0A93-44B5-A5D9-220AD985A0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C8F122-BA46-4448-AF5F-561BA85B8AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C8F122-BA46-4448-AF5F-561BA85B8AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C8F122-BA46-4448-AF5F-561BA85B8AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C8F122-BA46-4448-AF5F-561BA85B8AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E83E40-C4FB-40EC-AB85-F3A7496D7FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E83E40-C4FB-40EC-AB85-F3A7496D7FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E83E40-C4FB-40EC-AB85-F3A7496D7FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E83E40-C4FB-40EC-AB85-F3A7496D7FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD9F0F4-124B-44CC-9A0E-EA5F3FA50AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD9F0F4-124B-44CC-9A0E-EA5F3FA50AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD9F0F4-124B-44CC-9A0E-EA5F3FA50AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD9F0F4-124B-44CC-9A0E-EA5F3FA50AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5D259E-0ECC-427C-B8B5-E9D931DA94D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5D259E-0ECC-427C-B8B5-E9D931DA94D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5D259E-0ECC-427C-B8B5-E9D931DA94D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5D259E-0ECC-427C-B8B5-E9D931DA94D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A0954CC-5EAE-4D2F-AB0C-E30E74174BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A0954CC-5EAE-4D2F-AB0C-E30E74174BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A0954CC-5EAE-4D2F-AB0C-E30E74174BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0954CC-5EAE-4D2F-AB0C-E30E74174BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35331D58-D988-4A71-A719-E177EABFDBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35331D58-D988-4A71-A719-E177EABFDBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35331D58-D988-4A71-A719-E177EABFDBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35331D58-D988-4A71-A719-E177EABFDBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0403171D-3770-456C-A5DD-8CF40229DEBD}
+	EndGlobalSection
+EndGlobal
